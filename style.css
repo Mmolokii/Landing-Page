@@ -101,3 +101,23 @@ img {
 .box-text {
     width: 135px; 
 }
+
+.quote {
+    background: #E5E7EB;
+    display: flex; 
+    flex-direction: column; 
+}
+
+.quote-text {
+    font-size: 36px; 
+    text-decoration: light italic;
+    color: #1F2937;
+    padding: 20px 40px 10px 20px;
+}
+
+.quote-author {
+    font-size: 20px;
+    color: #1F2937;
+    align-self: flex-end;
+    padding-bottom: 10px;
+}
