@@ -1,4 +1,29 @@
-body {
-    font: roboto; 
-    padding: 0px; 
+* {
+    padding: 0 0; 
+    margin: 0 0; 
+    font: Roboto; 
+}
+
+.header-top {
+    display: flex; 
+    justify-content: space-between;
+    margin-right: 100px; 
+    margin-left: 100px; 
+    padding-top: 20px; 
+}
+
+.header {
+    color: white; 
+    background: #1F2937; 
+}
+
+ul {
+    display: flex; 
+    list-style: none; 
+    gap: 20px; 
+}
+
+a {
+    text-decoration: none;
+    color: white
 }
