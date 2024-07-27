@@ -70,6 +70,10 @@ img {
     justify-content: space-between;
 }
 
+.header-body-right {
+    margin: auto; 
+}
+
 .info-header {
     font-size: 36px; 
     font-weight: extra-bold;
