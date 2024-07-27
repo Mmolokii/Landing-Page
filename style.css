@@ -1,7 +1,7 @@
 * {
     padding: 0 0; 
     margin: 0 0; 
-    font: Roboto; 
+    font-family: Roboto;
 }
 
 .header-top {
@@ -15,6 +15,12 @@
 .header {
     color: white; 
     background: #1F2937; 
+    padding-bottom: 10px; 
+}
+
+.header-logo {
+    font-size: 24px; 
+    color: #F9FAF8; 
 }
 
 ul {
@@ -26,4 +32,40 @@ ul {
 a {
     text-decoration: none;
     color: white
+}
+
+.main-hero-text {
+    font-size: 48px; 
+    font-weight: extra-bold;
+    color: #F9FAF8; 
+    max-width: 400px; 
+    margin-left: 100px; 
+    padding-top: 50px; 
+}
+
+.secondary-hero-text {
+    font-size: 18px; 
+    color: #E5E7EB; 
+    max-width: 400px; 
+    padding-left: 100px;  
+    padding-bottom: 10px; 
+}
+
+.sign-up {
+    margin-left: 100px; 
+    background: #3882F6; 
+    color: #F9FAF8;
+    padding: 8px 20px 8px 20px; 
+    border: none; 
+    border-radius: 4px; 
+}
+
+img {
+    max-height: 200px; 
+    max-width: 200px;
+}
+
+.header-body {
+    display: flex; 
+    justify-content: space-between;
 }
