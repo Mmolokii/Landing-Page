@@ -69,3 +69,35 @@ img {
     display: flex; 
     justify-content: space-between;
 }
+
+.info-header {
+    font-size: 36px; 
+    font-weight: extra-bold;
+    color: #1F2937; 
+    text-align: center;
+    padding-bottom: 20px; 
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    gap: 10px; 
+}
+
+.frame {
+    height: 200px; 
+    width: 200px; 
+    text-align: center;
+    
+}
+
+.box {
+    height: 135px; 
+    width: 135px;
+    border: 3px solid #3882F6;
+    border-radius: 4px; 
+}
+
+.box-text {
+    width: 135px; 
+}
